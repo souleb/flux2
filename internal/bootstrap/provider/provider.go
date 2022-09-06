@@ -16,6 +16,8 @@ limitations under the License.
 
 package provider
 
+import "github.com/go-logr/logr"
+
 // GitProvider holds a Git provider definition.
 type GitProvider string
 
@@ -44,4 +46,7 @@ type Config struct {
 
 	// CABunle contains the CA bundle to use for the client.
 	CaBundle []byte
+
+	// Logger
+	Logger *logr.Logger
 }

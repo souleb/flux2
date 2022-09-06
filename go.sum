@@ -135,6 +135,8 @@ github.com/bgentry/speakeasy v0.1.0/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kB
 github.com/bketelsen/crypt v0.0.4/go.mod h1:aI6NrJ0pMGgvZKL1iVgXLnfIFJtfV+bKCoqOes/6LfM=
 github.com/bkielbasa/cyclop v1.2.0/go.mod h1:qOI0yy6A7dYC4Zgsa72Ppm9kONl0RoIlPbzot9mhmeI=
 github.com/blizzy78/varnamelen v0.3.0/go.mod h1:hbwRdBvoBqxk34XyQ6HA0UH3G0/1TKuv5AC4eaBT0Ec=
+github.com/bombsimon/logrusr/v3 v3.0.0 h1:tcAoLfuAhKP9npBxWzSdpsvKPQt1XV02nSf2lZA82TQ=
+github.com/bombsimon/logrusr/v3 v3.0.0/go.mod h1:PksPPgSFEL2I52pla2glgCyyd2OqOHAnFF5E+g8Ixco=
 github.com/bombsimon/wsl/v3 v3.3.0/go.mod h1:st10JtZYLE4D5sC7b8xV4zTKZwAQjCH/Hy2Pm1FNZIc=
 github.com/breml/bidichk v0.1.1/go.mod h1:zbfeitpevDUGI7V91Uzzuwrn4Vls8MoBMrwtt78jmso=
 github.com/bshuster-repo/logrus-logstash-hook v1.0.0 h1:e+C0SB5R1pu//O4MQ3f9cFuPGoOVeF2fE4Og9otCc70=
@@ -243,8 +245,8 @@ github.com/fatih/color v1.13.0/go.mod h1:kLAiJbzzSOZDVNGyDpeOxJ47H46qBXwg5ILebYF
 github.com/fatih/structtag v1.2.0/go.mod h1:mBJUNpUnHmRKrKlQQlmCrh5PuhftFbNv8Ys4/aAZl94=
 github.com/felixge/httpsnoop v1.0.1 h1:lvB5Jl89CsZtGIWuTcDM1E/vkVs49/Ml7JJe07l8SPQ=
 github.com/flowstack/go-jsonschema v0.1.1/go.mod h1:yL7fNggx1o8rm9RlgXv7hTBWxdBM0rVwpMwimd3F3N0=
-github.com/fluxcd/go-git-providers v0.8.0 h1:80UMu7yvRoEVfEIg0eGb9bJ0bSceizNJrEVvwLo+0YI=
-github.com/fluxcd/go-git-providers v0.8.0/go.mod h1:krF+f3UFciy5QmFaYfaORCVxaEj7u2qD7R/WrfKCLWk=
+github.com/fluxcd/go-git-providers v0.8.1-0.20220906103600-b50735f730ff h1:9KidfbZc/+vKD132PirNK1S+aE5TEPQVIqWJmjWUS9k=
+github.com/fluxcd/go-git-providers v0.8.1-0.20220906103600-b50735f730ff/go.mod h1:6+3DYPp6kWR0SJhE0Qo2VfpWeK/6BnYSJtEWvgJfvFE=
 github.com/fluxcd/helm-controller/api v0.23.1 h1:igBI/SZxYErepgxj8f5SrAg93wIxmYgF+Jci6nzV0wY=
 github.com/fluxcd/helm-controller/api v0.23.1/go.mod h1:SJDOj+stJIjODvxpXysx/0KqRD1QnrG8PG5TpSN10Dk=
 github.com/fluxcd/image-automation-controller/api v0.24.2 h1:jjK5xzaq5nXsHzNWAVt3RpK2xZRKA2QYPWbV+0sIWIs=
@@ -289,6 +291,8 @@ github.com/fzipp/gocyclo v0.3.1/go.mod h1:DJHO6AUmbdqj2ET4Z9iArSuwWgYDRryYt2wASx
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/gliderlabs/ssh v0.2.2 h1:6zsha5zo/TWhRhwqCD3+EarCAgZ2yN28ipRnGPnwkI0=
 github.com/gliderlabs/ssh v0.2.2/go.mod h1:U7qILu1NlMHj9FlMhZLlkCdDnU1DBEAqr0aevW3Awn0=
+github.com/gmlewis/go-httpdebug v0.0.7 h1:xYf0cWBoA4Sw/Fw6jGkg9wUDxoa6wY3xbOXupvNwlac=
+github.com/gmlewis/go-httpdebug v0.0.7/go.mod h1:mGgZhs9/5SGVyyUtrIg/bsFRQymX34mmcYgyueZVpTk=
 github.com/go-critic/go-critic v0.6.1/go.mod h1:SdNCfU0yF3UBjtaZGw6586/WocupMOJuiqgom5DsQxM=
 github.com/go-errors/errors v1.0.1 h1:LUHzmkK3GUKUrL/1gfBUxAHzcev3apQlezX/+O7ma6w=
 github.com/go-errors/errors v1.0.1/go.mod h1:f4zRHt4oKfwPJE5k8C9vpYG+aDHdBFUsgrm6/TyX73Q=

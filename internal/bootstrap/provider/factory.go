@@ -42,6 +42,10 @@ func BuildGitProvider(config Config) (gitprovider.Client, error) {
 		if config.CaBundle != nil {
 			opts = append(opts, gitprovider.WithCustomCAPostChainTransportHook(config.CaBundle))
 		}
+		if config.Logger != nil {
+			opts = append(opts, gitprovider.WithLogger(config.Logger))
+		}
+
 		if client, err = github.NewClient(opts...); err != nil {
 			return nil, err
 		}

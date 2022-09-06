@@ -5,8 +5,9 @@ go 1.18
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/ProtonMail/go-crypto v0.0.0-20220824120805-4b6e5c587895
+	github.com/bombsimon/logrusr/v3 v3.0.0
 	github.com/cyphar/filepath-securejoin v0.2.3
-	github.com/fluxcd/go-git-providers v0.8.0
+	github.com/fluxcd/go-git-providers v0.8.1-0.20220906103600-b50735f730ff
 	github.com/fluxcd/helm-controller/api v0.23.1
 	github.com/fluxcd/image-automation-controller/api v0.24.2
 	github.com/fluxcd/image-reflector-controller/api v0.20.1
@@ -23,6 +24,7 @@ require (
 	github.com/fluxcd/pkg/version v0.2.0
 	github.com/fluxcd/source-controller/api v0.28.0
 	github.com/go-git/go-git/v5 v5.4.2
+	github.com/go-logr/logr v1.2.3
 	github.com/gonvenience/bunt v1.3.4
 	github.com/gonvenience/ytbx v1.4.4
 	github.com/google/go-cmp v0.5.8
@@ -34,6 +36,7 @@ require (
 	github.com/mattn/go-shellwords v1.0.12
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/gomega v1.20.1
+	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cobra v1.5.0
 	github.com/spf13/pflag v1.0.5
 	github.com/theckman/yacspin v0.13.12
@@ -89,10 +92,10 @@ require (
 	github.com/fluxcd/pkg/apis/acl v0.1.0 // indirect
 	github.com/fluxcd/pkg/apis/kustomize v0.5.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
+	github.com/gmlewis/go-httpdebug v0.0.7 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1 // indirect
-	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
 	github.com/go-openapi/swag v0.21.1 // indirect
@@ -151,7 +154,6 @@ require (
 	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/texttheater/golang-levenshtein v1.0.1 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect
 	github.com/virtuald/go-ordered-json v0.0.0-20170621173500-b18e6e673d74 // indirect

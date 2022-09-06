@@ -22,7 +22,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/bombsimon/logrusr/v3"
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
 	"github.com/fluxcd/flux2/internal/bootstrap"
@@ -149,12 +151,16 @@ func bootstrapGitHubCmdRun(cmd *cobra.Command, args []string) error {
 			return fmt.Errorf("unable to read TLS CA file: %w", err)
 		}
 	}
+
+	logrusLog := logrus.New()
+	defaultLogger := logrusr.New(logrusLog)
 	// Build GitHub provider
 	providerCfg := provider.Config{
 		Provider: provider.GitProviderGitHub,
 		Hostname: githubArgs.hostname,
 		Token:    ghToken,
 		CaBundle: caBundle,
+		Logger:   &defaultLogger,
 	}
 	providerClient, err := provider.BuildGitProvider(providerCfg)
 	if err != nil {
